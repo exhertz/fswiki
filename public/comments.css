@@ -14,3 +14,13 @@
     transition: border-color 0.25s;
     background-color: var(--vp-c-bg);
 }
+
+.comentario-root .comentario-btn-primary {
+    --cmntr-btn-bg: var(--vp-c-brand-1);
+    --cmntr-btn-active-bg: var(--vp-c-brand-1);
+    --cmntr-btn-hover-bg: var(--vp-c-brand-1);
+}
+
+.comentario-comments {
+    --cmntr-bg: var(--vp-c-bg);
+}
