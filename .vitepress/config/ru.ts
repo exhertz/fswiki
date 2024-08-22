@@ -40,7 +40,12 @@ export const ru = defineConfig({
       },
 
       lastUpdated: {
-        text: 'Обновлено'
+        text: 'Обновлено',
+        formatOptions: {
+          dateStyle: 'short',
+          timeStyle: 'medium',
+          forceLocale: true
+        }
       },
 
       darkModeSwitchLabel: 'Оформление',

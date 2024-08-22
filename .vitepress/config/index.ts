@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { shared } from './shared'
 import { ru } from './ru'
-import { setup } from '@css-render/vue3-ssr'
 
 const fileAndStyles: Record<string, string> = {}
 
