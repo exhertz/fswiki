@@ -1,0 +1,18 @@
+
+
+/* .comentario-message-box-body {
+    background-color: black;
+} */
+
+.comentario-footer a {
+    display: none;
+}
+
+
+
+.comentario-root .comentario-message-box.comentario-error {
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 8px;
+    transition: border-color 0.25s;
+    background-color: var(--vp-c-bg);
+}
