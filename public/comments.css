@@ -21,6 +21,24 @@
     --cmntr-btn-hover-bg: var(--vp-c-brand-1);
 }
 
-.comentario-comments {
+.comentario-root .comentario-btn-secondary {
+    --cmntr-btn-bg: var(--vp-c-brand-1);
+    --cmntr-btn-active-bg: var(--vp-c-brand-1);
+    --cmntr-btn-hover-bg: var(--vp-c-brand-1);
+}
+
+.comentario-root .comentario-add-comment-host {
+    border: 1px solid var(--vp-c-divider);
+}
+
+.comentario-root .comentario-toolbar .comentario-btn-tool {
+    --cmntr-btn-color: var(--vp-c-text-2);
+}
+
+comentario-comments {
     --cmntr-bg: var(--vp-c-bg);
+    --cmntr-input-bg: var(--vp-custom-block-details-bg);
+    --cmntr-input-color: var(--vp-c-text-1);
+    --cmntr-link-color: var(--vp-c-brand-1);
+    --cmntr-link-hover-color: var(--vp-c-brand-1);
 }
