@@ -12,6 +12,6 @@ const { title } = useData()
       defer="true"
       async
     />
-    <comentario-comments css-override="/comments.css" lang="ru" no-fonts="true" ></comentario-comments>
+    <comentario-comments css-override="https://fswiki.ru/comments.css" lang="ru" no-fonts="true" ></comentario-comments>
   </div>
 </template>
