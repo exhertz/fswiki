@@ -43,6 +43,22 @@
     --cmntr-btn-color: var(--vp-c-text-2);
 }
 
+.comentario-root .comentario-rejected {
+    background-color: #ff00000f;
+}
+
+.comentario-root .comentario-pending {
+    background-color: #ffbf000f;
+}
+
+.comentario-root {
+    font-size: 14px;
+}
+
+.comentario-root .comentario-badge {
+    font-size: 7px;
+}
+
 comentario-comments {
     --cmntr-color: var(--vp-c-text-1);
     --cmntr-bg: var(--vp-c-bg);
@@ -53,4 +69,6 @@ comentario-comments {
     --cmntr-bg-shade: var(--vp-c-bg-alt);
     --cmntr-dlg-header-bg: var(--vp-c-bg-elv);
     --cmntr-dlg-border: var(--vp-c-divider);
+    --cmntt-muted-color: var(--vp-c-divider);
+    --cmntr-card-border: var(--vp-c-divider);
 }
