@@ -29,7 +29,7 @@ onMounted(() => {
   <n-config-provider :theme=theme :theme-overrides="themeOverrides">
   <n-modal-provider>
   <Layout>
-    <template #doc-after v-if="$frontmatter.comments === true && pageIsMounted">
+    <template #doc-after v-if="$frontmatter.comments != false && pageIsMounted">
       <Comments />
     </template>
   </Layout>

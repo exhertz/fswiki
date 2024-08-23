@@ -2,13 +2,11 @@
 
 # <img src="public/android-chrome-192x192.png" alt="alt text" width="22" style="margin:auto;"/> FSWIKI
 
-<a href="https://google.com" target="_blank" class="button">Домашняя страница</a>
-<a href="#" target="_blank" class="button secondary">Discord</a>
+[Homepage](https://fswiki.ru) · [Discord]()
 
 ---
 
 fswiki — Открытый и доступный каждому справочник по игре farming simulator 25.  
-
 
 ## Сделан с использованием
 - [Vitepress](https://github.com/vuejs/vitepress);
@@ -88,21 +86,3 @@ server {
 
 }
 ```
-
-
-
-<style>
-a.button {
-    padding: 2px 8px;
-    border-radius: 3px;
-    margin-right: 2px;
-    color: #fff;
-    background-color: #719F00;
-    border: 1px solid #719F00;
-    text-decoration: none;
-}
-a.button.secondary {
-    background: #636c76;
-    border-color: #636c76;
-}
-</style>
