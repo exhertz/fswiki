@@ -1,5 +1,6 @@
 ---
 exclude: true
+comments: false
 ---
 
 # Политика конфиденциальности

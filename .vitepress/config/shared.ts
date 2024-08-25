@@ -35,5 +35,6 @@ export const shared = defineConfig({
     ],
   },
 
-  srcExclude: ['**/README.md', '**/SECRETS.md']
+  srcDir: './wiki',
+  srcExclude: ['**/README.md']
 })

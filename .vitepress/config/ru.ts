@@ -13,7 +13,7 @@ export const ru = defineConfig({
   
       sidebar: generateSidebar(
         {
-          // excludeFolders: ['docs'],
+          documentRootPath: 'wiki',
           collapsed: null,
           capitalizeFirst: true,
 
