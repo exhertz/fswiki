@@ -31,9 +31,9 @@ features:
 ---
  
 <style>
-    .VPNav .container {
-        max-width: 1152px;
-    }
+.VPNav .container {
+    max-width: 1152px;
+}
 
 .VPHomeHero {
     background-image: linear-gradient(transparent 50px, var(--vp-c-bg)), url('/images/landing/main.jpg');

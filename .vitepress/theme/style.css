@@ -169,10 +169,6 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-.container[data-v-] {
-  background-color: #57A72D;
-}
-
 img {
   cursor: pointer;
 }

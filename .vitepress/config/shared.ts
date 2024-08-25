@@ -33,6 +33,10 @@ export const shared = defineConfig({
     socialLinks: [
         { icon: 'github', link: 'https://github.com/exhertz' }
     ],
+    editLink: {
+      pattern: 'https://github.com/exhertz/fswiki/edit/master/wiki/:path',
+      text: ''
+    }
   },
 
   srcDir: './wiki',
