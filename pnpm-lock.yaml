@@ -7,6 +7,13 @@ settings:
 importers:
 
   .:
+    dependencies:
+      viewerjs:
+        specifier: ^1.11.6
+        version: 1.11.6
+      vitepress-plugin-image-viewer:
+        specifier: ^1.1.5
+        version: 1.1.5
     devDependencies:
       '@css-render/vue3-ssr':
         specifier: ^0.15.14
@@ -692,6 +699,9 @@ packages:
     peerDependencies:
       vue: ^3.0.11
 
+  viewerjs@1.11.6:
+    resolution: {integrity: sha512-TlhdSp2oEOLFXvEp4psKaeTjR5zBjTRcM/sHUN8PkV1UWuY8HKC8n7GaVdW5Xqnwdr/F1OmzLik1QwDjI4w/nw==}
+
   vite@5.4.1:
     resolution: {integrity: sha512-1oE6yuNXssjrZdblI9AfBbHCC41nnyoVoEZxQnID6yvQZAFBzxxkqoFLtHUMkYunL8hwOLEjgTuxpkRxvba3kA==}
     engines: {node: ^18.0.0 || >=20.0.0}
@@ -722,6 +732,9 @@ packages:
         optional: true
       terser:
         optional: true
+
+  vitepress-plugin-image-viewer@1.1.5:
+    resolution: {integrity: sha512-XnAb7bhqRCJB3JsKmah6oTDMTQNUQmLID+SME9Zwg/IWbYT+zySt2HuHHeTJlfHMmYpFBhvu8ayvBM0Fu3hdVQ==}
 
   vitepress-sidebar@1.24.2:
     resolution: {integrity: sha512-0Ck5VpUqPQNfEe+6Dneu80TYSbjEZPdEOxkJ3YGFMwDnaeCm9Jq7BRKQFfUBbZHkqvh2lSQF0kOiwZR04mkAoA==}
@@ -1418,6 +1431,8 @@ snapshots:
       evtd: 0.2.4
       vue: 3.4.38
 
+  viewerjs@1.11.6: {}
+
   vite@5.4.1:
     dependencies:
       esbuild: 0.21.5
@@ -1425,6 +1440,10 @@ snapshots:
       rollup: 4.20.0
     optionalDependencies:
       fsevents: 2.3.3
+
+  vitepress-plugin-image-viewer@1.1.5:
+    dependencies:
+      viewerjs: 1.11.6
 
   vitepress-sidebar@1.24.2:
     dependencies:

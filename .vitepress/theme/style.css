@@ -172,3 +172,7 @@
 .container[data-v-] {
   background-color: #57A72D;
 }
+
+img {
+  cursor: pointer;
+}
