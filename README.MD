@@ -1,6 +1,6 @@
 
 
-# <img src="public/android-chrome-192x192.png" alt="alt text" width="22" style="margin:auto;"/> FSWIKI
+# <img src="wiki/public/android-chrome-192x192.png" width="22" style="margin:auto;"/> FSWIKI
 
 [Homepage](https://fswiki.ru) · [Discord]()
 
