@@ -34,7 +34,7 @@ export const shared = defineConfig({
         { icon: 'github', link: 'https://github.com/exhertz' }
     ],
     editLink: {
-      pattern: 'https://github.com/exhertz/fswiki/edit/master/wiki/:path',
+      pattern: 'https://github.com/exhertz/fswiki/edit/dev/wiki/:path',
       text: ''
     }
   },

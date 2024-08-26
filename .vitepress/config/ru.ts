@@ -32,7 +32,10 @@ export const ru = defineConfig({
         copyright: 'Опубликовано под лицензией MIT. © 2024, fswiki.ru'
       },
 
-      outline: { label: 'Содержание страницы' },
+      outline: { 
+        level: 'deep',
+        label: 'Содержание страницы'
+      },
 
       docFooter: {
         prev: 'Предыдущая страница',
