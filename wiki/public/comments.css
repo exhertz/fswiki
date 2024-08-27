@@ -72,3 +72,13 @@ comentario-comments {
     --cmntt-muted-color: var(--vp-c-divider);
     --cmntr-card-border: var(--vp-c-divider);
 }
+
+.comentario-root .comentario-card .comentario-card-body p code {
+    padding: 1px 4px;
+    border-radius: 4px;
+    background-color: var(--vp-c-bg-alt);
+}
+
+.comentario-root .comentario-card .comentario-card-body pre {
+    border-radius: 4px;
+}
