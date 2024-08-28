@@ -12,13 +12,13 @@ hero:
       link: introduction
     - theme: alt
       text: Быстрый старт
-      link: test
+      link: /
     - theme: alt
       text: Всё о культурах
-      link: test
+      link: /
     - theme: alt
       text: Моды
-      link: test
+      link: /
 
 features:
   - title: 📖 Открытый
