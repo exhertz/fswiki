@@ -28,6 +28,7 @@ jobs:
           echo "{{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
+        shell: bash
 
       - name: Copy to Server
         run: cd .vitepress/dist && rsync -avzi --checksum . ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:${{ secrets.SERVER_PATH }}
