@@ -4,7 +4,7 @@ import { generateSidebar } from 'vitepress-sidebar'
 
 export const ru = defineConfig({
     lang: 'ru-RU',
-    description: 'Farming Simulator 22 – Guides and Wiki, удобный справочник по культовой игре',
+    description: 'Ознакомьтесь с руководствами по культурам, животным, лесному хозяйству и производствам в FS25.',
   
     themeConfig: {
       nav: [

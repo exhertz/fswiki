@@ -17,12 +17,13 @@ fswiki — Открытый и доступный каждому справоч�
 Система комментариев поддерживает много способов установки (в том числе Docker), в случае fswiki был выбран .deb пакет.  
 Ниже представлены ключевые конфигурационные файлы системы и сервера nginx.
 ```bash
-# /comentario.conf
+# /etc/comentario/comentario.conf
 PORT=8000
 BASE_URL=https://comments.fswiki.ru
 ```
+
 ```bash
-# /etc/nginx/sites-available/fswiki
+# /etc/nginx/sites-available/comments.fswiki
 upstream comentario_backend {
 	server 127.0.0.1:8000;
 }
