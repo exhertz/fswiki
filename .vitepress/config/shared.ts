@@ -12,7 +12,7 @@ export const shared = defineConfig({
     ['meta', { name: 'theme-color', content: '#57A72D' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'ru' }],
-    ['meta', { property: 'og:title', content: 'fswiki.ru | Гайды и Вики по Farming Simulator 25' }],
+    ['meta', { property: 'og:title', content: 'FSWIKI: Справочник по Farming Simulator 25' }],
     ['meta', { property: 'og:site_name', content: 'fswiki.ru' }],
     ['meta', { property: 'og:url', content: 'https://fswiki.ru/' }],
 
