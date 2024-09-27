@@ -31,7 +31,7 @@ export const shared = defineConfig({
       dark: '/icons/logo-dark.png'
     },
     socialLinks: [
-        { icon: 'github', link: 'https://github.com/exhertz' }
+      { icon: 'github', link: 'https://github.com/exhertz' }
     ],
     editLink: {
       pattern: 'https://github.com/exhertz/fswiki/edit/dev/wiki/:path',
