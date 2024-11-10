@@ -8,6 +8,7 @@ export const ru = defineConfig({
   
     themeConfig: {
       nav: [
+        { text: 'Чат', link: 'https://t.me/fswiki'},
         { text: '💗 Поддержать автора', link: '/donate' },
       ],
   

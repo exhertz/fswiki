@@ -12,13 +12,13 @@ hero:
       link: introduction
     - theme: alt
       text: Быстрый старт
-      link: /
+      link: /basics/how-to-start
     - theme: alt
       text: Всё о культурах
-      link: /
-    - theme: alt
-      text: Моды
-      link: /
+      link: /crops/introduction
+    # - theme: alt
+    #   text: Моды
+    #   link: /
 
 features:
   - title: 📖 Открытый
