@@ -26,6 +26,35 @@ lastUpdated: false
 	</n-button>
 </n-space>
 
+## Онлайн-банки
+<n-space>
+<n-button
+    tag="a"
+    href="https://yoomoney.ru/to/4100110338121082"
+    target="_blank"
+	class="clear_btn"
+> 
+<template #icon>
+		<n-icon size="20"><svg width="36" height="26" viewBox="0 0 36 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.9677 0C15.9275 0 10.2701 5.69531 10.2701 12.6563C10.2701 19.6746 15.9832 25.3125 22.966 25.3125C29.9489 25.3125 35.667 19.6172 35.667 12.6563C35.667 5.69531 29.9506 0 22.9677 0ZM22.9677 17.3737C20.3707 17.3737 18.236 15.2449 18.236 12.6563C18.236 10.0676 20.3707 7.93884 22.9677 7.93884C25.5648 7.93884 27.7003 10.0676 27.7003 12.6563C27.6421 15.2449 25.5648 17.3737 22.9677 17.3737Z" fill="#8B3FFD"/>
+<path d="M10.2701 3.67676V22.0857H5.77125L0 3.67676H10.2701Z" fill="#8B3FFD"/>
+</svg></n-icon>
+	  </template>
+	  Перевод на Yoomoney (МИР, MasterCard, Visa, Maestro, кошелёк)
+</n-button>
+<n-button
+    @click="showTBANK()"
+> 
+<template #icon>
+		<n-icon size="20"><svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0.103516H32V15.0937C32 19.2194 29.7991 23.032 26.2263 25.095L16.0001 31.0001L5.77375 25.095C2.2009 23.032 3.66761e-06 19.2194 3.66761e-06 15.0937L0 0.103516Z" fill="#FFDD2D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.82758 7.82812V12.8021C9.50774 12.034 10.7444 11.5143 12.1584 11.5143H13.695V17.2965C13.695 18.8348 13.277 20.3411 12.6569 21.0818H19.3408C18.722 20.3403 18.305 18.8359 18.305 17.2995V11.5143H19.8416C21.2556 11.5143 22.4922 12.034 23.1724 12.8021V7.82812H8.82758Z" fill="#333333"/>
+</svg></n-icon>
+	  </template>
+	  Перевод на Т-Банк (картой МИР любого банка)
+</n-button>
+</n-space>
+
 ## История пожертвований
 
 <n-table>
@@ -53,6 +82,7 @@ lastUpdated: false
   const modal = useModal()
 
   const history = [
+	{date: '02.11.2024', comment: 'хочу больше статей, займитесь лесоповалом 👊', amount: '6.2 USDT'},
 	{date: '16.08.2024', comment: 'Крутой сайт с гайдами, много полезностей про культивацию. Закинул редакторам на кофе)', amount: '10.0 TON'}
   ]
 
@@ -78,10 +108,33 @@ lastUpdated: false
 		content: () =>
 		  [h(
 			NQrCode,
-			{ value: addr, style:"box-sizing:initial;margin-bottom:10px;"}
+			{ value: addr, style:"box-sizing:initial;margin-bottom:10px;", size:200}
 		  ), h('br'), addr],
 	  })
   }
+
+  const showTBANK = () => {
+  const m = modal.create({
+    title: `Поддержать fswiki.ru - Т-Банк`,
+    preset: 'card',
+    style: {
+      width: 'auto',
+    },
+    content: () =>
+      [
+        h(NQrCode, {
+          value: "https://www.tinkoff.ru/rm/karmak.aleksandr1/MTmUF23323",
+          style: "box-sizing:initial;margin-bottom:10px;",
+          size: 200,
+        }),
+        h('br'),
+        h('a', {
+          href: "https://www.tinkoff.ru/rm/karmak.aleksandr1/MTmUF23323",
+          target: "_blank",
+        }, "https://www.tinkoff.ru/rm/karmak.aleksandr1/MTmUF23323"),
+      ],
+  });
+};
 
 
 </script>
@@ -93,4 +146,10 @@ lastUpdated: false
 .vp-doc th, .vp-doc td {
   border: 0;
 }
+.clear_btn {
+	text-decoration: none;
+	color: var(--n-text-color);
+	font-weight: var(--n-font-weight)
+}
+
 </style>
