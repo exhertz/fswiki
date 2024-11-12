@@ -50,11 +50,10 @@
 <script setup>
 import { ref, defineProps } from 'vue';
 import {
-NCard,
-NModal,
-NScrollbar,
-NImage,
-NSpace,
+    NCard,
+    NModal,
+    NScrollbar,
+    NSpace,
 } from 'naive-ui';
 import ImageView from './ImageView.vue';
 
@@ -75,41 +74,41 @@ showModal.value = true;
 <style scoped>
 
 .content {
-padding-right: 20px;
+    padding-right: 20px;
 }
 .news-card {
-cursor: pointer;
-transition: transform 0.2s;
+    cursor: pointer;
+    transition: transform 0.2s;
 }
 .news-card:hover {
-transform: translateY(-2px);
+    transform: translateY(-2px);
 }
 .news-title {
-cursor: pointer;
+    cursor: pointer;
 }
 img, video {
-padding: 10px 0;
+    padding: 10px 0;
 }
 h2 {
-font-weight: 700;
-font-size: 18px;
-padding: 14px 0;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 14px 0;
 }
 .n-card__action {
-padding: 2px;
+    padding: 2px;
 }
 
 </style>
 
 <style>
 .news-container {
-width: 700px;
-max-height: 100vh;
-overflow-y: auto;
+    width: 700px;
+    max-height: 100vh;
+    overflow-y: auto;
 }
 @media (max-width: 768px) {
-.news-container {
-    width: 100%;
-}
+    .news-container {
+        width: 100%;
+    }
 }
 </style>
