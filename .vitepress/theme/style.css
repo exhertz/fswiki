@@ -158,6 +158,14 @@
   border-radius: 10px;
 }
 
+.vp-doc h3 {
+  margin: 32px 0 8px;
+}
+
+.vp-doc h4 {
+  margin: 24px 0 4px;
+}
+
 /**
  * Component: Algolia
  * -------------------------------------------------------------------------- */
@@ -166,6 +174,9 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-img {
-  cursor: pointer;
+.group:has([role='button']) .VPSidebarItem.level-0 .items {
+  padding-left: 16px !important;
+  border-left: 1px solid var(--vp-c-divider);
+  border-radius: 2px;
+  transition: background-color 0.25s;
 }

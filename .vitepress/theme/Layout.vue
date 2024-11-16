@@ -2,7 +2,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import { computed, ref, onMounted } from 'vue';
-import { NModalProvider, NConfigProvider, darkTheme } from 'naive-ui';
+import { NModalProvider, NConfigProvider, darkTheme, NDialogProvider, NMessageProvider } from 'naive-ui';
 import Comments from './components/Comments.vue'
 
 const { isDark } = useData()
@@ -28,11 +28,15 @@ onMounted(() => {
 <template>
   <n-config-provider :theme=theme :theme-overrides="themeOverrides">
   <n-modal-provider>
+  <n-dialog-provider>
+  <n-message-provider>
   <Layout>
     <template #doc-after v-if="$frontmatter.comments != false && pageIsMounted">
       <Comments />
     </template>
   </Layout>
+  </n-message-provider>
+  </n-dialog-provider>
 </n-modal-provider>
 </n-config-provider>
 </template>
