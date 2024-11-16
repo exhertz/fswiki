@@ -158,6 +158,14 @@
   border-radius: 10px;
 }
 
+.vp-doc h3 {
+  margin: 32px 0 8px;
+}
+
+.vp-doc h4 {
+  margin: 24px 0 4px;
+}
+
 /**
  * Component: Algolia
  * -------------------------------------------------------------------------- */
