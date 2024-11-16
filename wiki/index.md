@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "fswiki.ru"
-  text: Справочник по Farming Simulator 25
-  tagline: Сделайте ферму выдающейся!
+  text: Справочник по Farming Simulator
+  tagline: Актуален для Farming Simulator 22 и 25. <br>Сделайте ферму выдающейся!
   actions:
     - theme: brand
       text: Перейти ➜ 
