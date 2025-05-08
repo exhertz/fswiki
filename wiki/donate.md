@@ -122,15 +122,15 @@ lastUpdated: false
     content: () =>
       [
         h(NQrCode, {
-          value: "https://www.tinkoff.ru/rm/karmak.aleksandr1/MTmUF23323",
+          value: "https://www.tinkoff.ru/rm/r_UEEpipbOzX.bHLQdjiamD/LzRIp44450",
           style: "box-sizing:initial;margin-bottom:10px;",
           size: 200,
         }),
         h('br'),
         h('a', {
-          href: "https://www.tinkoff.ru/rm/karmak.aleksandr1/MTmUF23323",
+          href: "https://www.tinkoff.ru/rm/r_UEEpipbOzX.bHLQdjiamD/LzRIp44450",
           target: "_blank",
-        }, "https://www.tinkoff.ru/rm/karmak.aleksandr1/MTmUF23323"),
+        }, "https://www.tinkoff.ru/rm/r_UEEpipbOzX.bHLQdjiamD/LzRIp44450"),
       ],
   });
 };
